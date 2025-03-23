@@ -5,7 +5,10 @@ function bubbleSort(arr, comparator) {
     for (let j = 0; j < arr.length; j++) {
       if (
         (typeof comparator !== 'function' && arr[j] > arr[j + 1]) ||
-        (typeof comparator === 'function' && comparator(arr[j], arr[j + 1]) > 0)
+        (typeof comparator === 'function' &&
+          arr[j] &&
+          arr[j + 1] &&
+          comparator(arr[j], arr[j + 1]) > 0)
       ) {
         [arr[j], arr[j + 1]] = [arr[j + 1], arr[j]];
         noSwaps = false;
@@ -64,7 +67,7 @@ let moarKittyData = [
 ];
 
 function oldestToYoungest(a, b) {
-  return b?.age - a?.age;
+  return b.age - a.age;
 }
 
 let g = bubbleSort(moarKittyData, oldestToYoungest);
