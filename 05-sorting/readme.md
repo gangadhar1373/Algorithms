@@ -21,4 +21,5 @@ const swap = (arr, idx1, idx2) => {
 };
 ```
 
-2.
+2. Selection sort
+   Store the smallest element in the loop and then swap with last element in the loop.
