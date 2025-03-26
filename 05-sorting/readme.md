@@ -23,3 +23,5 @@ const swap = (arr, idx1, idx2) => {
 
 2. Selection sort
    Store the smallest element in the loop and then swap with last element in the loop.
+3. Insertion sort
+   Loop through the array and places the each element in the right place means compares with previous element and if its smaller than before elements place it before those elements

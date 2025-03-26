@@ -1,5 +1,7 @@
 function insertionSort(arr) {
+  // Start from the second element and loop through
   for (let i = 1; i < arr.length; i++) {
+    // Make it as current value
     let currentVal = arr[i];
     let j;
     console.log('arr', arr);
