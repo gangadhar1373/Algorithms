@@ -1,0 +1,26 @@
+{
+  "name": "algorithms",
+  "version": "1.0.0",
+  "description": "",
+  "keywords": [
+    "Algorithims",
+    "Big",
+    "O",
+    "JS-Algorithms"
+  ],
+  "homepage": "https://github.com/gangadhar1373/Algorithms#readme",
+  "bugs": {
+    "url": "https://github.com/gangadhar1373/Algorithms/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gangadhar1373/Algorithms.git"
+  },
+  "license": "ISC",
+  "author": "Gangadhar Mullapudi",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  }
+}
