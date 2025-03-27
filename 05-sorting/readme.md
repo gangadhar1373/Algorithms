@@ -27,3 +27,5 @@ const swap = (arr, idx1, idx2) => {
    Loop through the array and places the each element in the right place means compares with previous element and if its smaller than before elements place it before those elements
 4. Merge sort
    Split all the elements in array into small arrays that contains 1 or 0 elements. Then sort and merge the arrays. Time complexity (O n log n)
+5. Quick sort
+   Declares a pivot element and rearranges all the smaller elements to left side and remaining them to right side.
