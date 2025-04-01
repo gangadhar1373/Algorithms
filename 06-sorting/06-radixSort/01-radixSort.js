@@ -1,5 +1,6 @@
 function getDigitString(num, place) {
   let numArr = num.toString().split('').reverse();
+  if (i >= numArr.length) return 0;
   return Number(numArr[place]);
 }
 
